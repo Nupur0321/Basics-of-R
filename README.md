@@ -18,14 +18,14 @@ Exercise 5: Generate two vectors, one being the numbers 1,2,3,...10 and the othe
 Exercise 6: Using the R help plot these.\
 Exercise 7: Using the R help add a main title, subtitle and label the axes\
 
-#exercise 3
-help.start()
+#exercise 3\
+help.start()\
 ?class
 
-#exercise 4
+#exercise 4\
 ?plot
 
-#exercise 5
+#exercise 5\
 vec1 = c(1:10)   
 vec2= seq(from=2,to=20,by=2) 
 
@@ -33,38 +33,38 @@ vec2= seq(from=2,to=20,by=2)
 plot(vec1,vec2, main = "main title", sub = "sub-tittle", xlab = "x axis title", ylab = "y axis title")
 
 
-Section 3 Basic Calculations
-################################################################################################################## 
-Exercise 8: Run the following code
-a=2
-a=3
-b<-3
-a*b # note here the value of a*b is printed and then lost c=a*b # now the value of a*b is stored as c
-b/a
-3*6+234
-exp(log(10))
-a = 2; is.logical(a); is.list(a); is.numeric(a)
+Section 3 Basic Calculations\
+################################################################################################################## \
+Exercise 8: Run the following code\
+a=2\
+a=3\
+b<-3\
+a*b # note here the value of a*b is printed and then lost c=a*b # now the value of a*b is stored as c\
+b/a\
+3*6+234\
+exp(log(10))\
+a = 2; is.logical(a); is.list(a); is.numeric(a)\
 # Note that semicolons (;) let you run several calculations in the same line. # You could write the above as 4 separate lines if you prefer
 
-Exercise 9: Save the code from Exercise 8 in a script file. Add appropriate comments to the code. Run the code again to ensure you have not generated any errors
+Exercise 9: Save the code from Exercise 8 in a script file. Add appropriate comments to the code. Run the code again to ensure you have not generated any errors\
 
-#exercise 8 and 9
-a = 2
-a = 3
-b <- 3
-c = a*b
-c
-b/a
-3*6+234
-exp(log(10))
-a = 2; is.logical(a); is.list(a); is.numeric(a)
+#exercise 8 and 9\
+a = 2\
+a = 3\
+b <- 3\
+c = a*b\
+c\
+b/a\
+3*6+234\
+exp(log(10))\
+a = 2; is.logical(a); is.list(a); is.numeric(a)\
 
 
-Exercise 10: A manufacturing site are running a process; one of the unit operations in this process is a filtration step. There was 1000L of material entering the filter with a concentration of 2mg/L. 997L are recovered with a concentration of 1.95mg/L. Determine the yield.
+Exercise 10: A manufacturing site are running a process; one of the unit operations in this process is a filtration step. There was 1000L of material entering\ the filter with a concentration of 2mg/L. 997L are recovered with a concentration of 1.95mg/L. Determine the yield.\
 
-#exercise 10
-yield = ((997*1.95) / (1000*2))*100
-yield
+solution\
+yield = ((997*1.95) / (1000*2))*100\
+yield\
 
 Section 4 Sourcing Data
 ######################################################### #LOAD AN AVAILABLE DATASET ######################################################### 
