@@ -3,10 +3,10 @@ This repository about basic concepts in R
 
 Section 1 Comments
 
-Exercise 1: Make a comment in R.
-Exercise 2: Enter a comment into R without a # and note the error generated.
-Solution 1 and 2
-work this is a testing # Error: unexpected symbol in "work this"
+Exercise 1: Make a comment in R\
+Exercise 2: Enter a comment into R without a # and note the error generated\
+Solution 1 and 2\
+work this is a testing # Error: unexpected symbol in "work this"\
 
 Section 2 R Help
 ######################################################### #R HELP #########################################################
@@ -16,7 +16,7 @@ Exercise 4: Access the plot help.
 ```
 Exercise 5: Generate two vectors, one being the numbers 1,2,3,...10 and the other being 2,4,6,...20\
 Exercise 6: Using the R help plot these.\
-Exercise 7: Using the R help add a main title, subtitle and label the axes.
+Exercise 7: Using the R help add a main title, subtitle and label the axes\
 
 #exercise 3
 help.start()
