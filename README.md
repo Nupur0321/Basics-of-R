@@ -29,7 +29,7 @@ help.start()
 vec1 = c(1:10)   
 vec2= seq(from=2,to=20,by=2) 
 
-#exercise 6 and 7
+#exercise 6 and 7\
 plot(vec1,vec2, main = "main title", sub = "sub-tittle", xlab = "x axis title", ylab = "y axis title")
 
 
