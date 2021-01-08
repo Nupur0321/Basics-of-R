@@ -124,47 +124,47 @@ sd(y)
 
 Exercise 16: Use the seq() function to generate a vector containing the following values: -5, -4, -3, ..., 3, 4, 5\
 solution\
-seq (from = -5 , to = 5)\
+seq (from = -5 , to = 5)
 
 Exercise 17: Use the rep function to repeat the vector x twice.\
 solution\
-rep(x , times = 2)\
+rep(x , times = 2)
 
-Exercise 18: Run the following code. Note the relationship between the different fruits and their values. #Vectors may also contain characters or strings:
-fruit <- c(5, 10, 4)
-names(fruit) <- c("orange", "banana", "apple")
-lunch <- fruit[c("apple","orange")]
+Exercise 18: Run the following code. Note the relationship between the different fruits and their values. #Vectors may also contain characters or strings:\
+fruit <- c(5, 10, 4)\
+names(fruit) <- c("orange", "banana", "apple")\
+lunch <- fruit[c("apple","orange")]\
 
-solution
-fruit <- c(5, 10, 4)
-fruit
-names(fruit) <- c("orange", "banana", "apple")
-names(fruit)
-lunch <- fruit[c("apple","orange")]
+solution\
+fruit <- c(5, 10, 4)\
+fruit\
+names(fruit) <- c("orange", "banana", "apple")\
+names(fruit)\
+lunch <- fruit[c("apple","orange")]\
 lunch
 
 
-Section 6 Matrices
-########################################################
-#MATRICES
-########################################################
+Section 6 Matrices\
+########################################################\
+#MATRICES\
+########################################################\
 # Create a vector
-x = c(1, 2, 3, 4, 5, 6, 7, 8, 9)
+x = c(1, 2, 3, 4, 5, 6, 7, 8, 9)\
 # Now make it a 3×3 matrix:
-matrix(x, ncol = 3) # note how this is arranged. #If we prefer arranging by rows:
-M = matrix(x, ncol = 3, byrow = TRUE)
-#The matrix now has dimensions:
-dim(M)
-ncol(M)
-nrow(M)
+matrix(x, ncol = 3) # note how this is arranged. #If we prefer arranging by rows:\
+M = matrix(x, ncol = 3, byrow = TRUE)\
+#The matrix now has dimensions:\
+dim(M)\
+ncol(M)\
+nrow(M)\
 
 
-#What do the following do? t(M); aperm(M, c(2,1)) diag(M)
-det(M)
-#define two matrices A and B as below: A <- M; B <- t(M)
-#Element-by-element product:
-A * B #(if A and B are square)
-#Matrix product:
+#What do the following do? t(M); aperm(M, c(2,1)) diag(M)\
+det(M)\
+#define two matrices A and B as below: A <- M; B <- t(M)\
+#Element-by-element product:\
+A * B #(if A and B are square)\
+#Matrix product:\
 A %*% B
 # note how these are considerably different!
 
