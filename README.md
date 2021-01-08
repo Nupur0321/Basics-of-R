@@ -212,80 +212,80 @@ start_date
 
 #Matrices......
 #Creating a vector
-x = c(1, 2, 3, 4, 5, 6, 7, 8, 9)
+x = c(1, 2, 3, 4, 5, 6, 7, 8, 9)\
 
 #making it a 3 by 3 matrix
-matrix(x, ncol = 3)
+matrix(x, ncol = 3)\
 
 #If we prefer arranging by rows:
-M = matrix(x, ncol = 3, byrow = TRUE)
+M = matrix(x, ncol = 3, byrow = TRUE)\
 M
 
 #dimensions and no. of rows and columns in a matrix it defines
-dim(M)
-ncol(M)
-nrow(M)
-t(M)  # transpose of matrix
-aperm(M, c(2,1)) # transpose of matrix , line 103 and this both are identical
-t(M); aperm(M, c(2,1))
-diag(M)
+dim(M)\
+ncol(M)\
+nrow(M)\
+t(M)  # transpose of matrix\
+aperm(M, c(2,1)) # transpose of matrix , line 103 and this both are identical\
+t(M); aperm(M, c(2,1))\
+diag(M)\
 #this is determinant of a matrix
-det(M)
+det(M)\
 
 
 #defining two matrices
-A <- M ; B <- t(M)
-A
-B
+A <- M ; B <- t(M)\
+A\
+B\
 
 #Element-by-element product:
-A * B #(if A and B are square)
+A * B #(if A and B are square)\
 
 #Matrix product:
-A %*% B
+A %*% B\
 
 
 #ARRAYS
-h = seq(1, 24, by=1)
-h
+h = seq(1, 24, by=1)\
+h\
 Z <- array(h, dim=c(3,4,2))
-Z
+Z\
 Z[1,1,1]; Z[1,2,2]
 
 
 #LISTS
 
-Lst <- list(name="Fred", wife="Mary", no.children=3, child.ages=c(4,7,9))
-Lst
-Lst[[2]]
+Lst <- list(name="Fred", wife="Mary", no.children=3, child.ages=c(4,7,9))\
+Lst\
+Lst[[2]]\
 #extract 4th index first then in that 1 st index
-Lst[[4]][1]
+Lst[[4]][1]\
 #4th index in list with the header name
-Lst[4]
+Lst[4]\
 #here it will also give the same thing without the header name
-Lst[[2]]
-Lst[[4]]
+Lst[[2]]\
+Lst[[4]]\
 #$ is used to filter out the particular thing
 Lst$child.ages
 
 
 #Data Frames
 #exercise 19
-?as.Date()
-?date   # it will tell current date and time
+?as.Date()\
+?date   # it will tell current date and time\
 
-#exercise 20
-emp.data<- read.csv(file.choose())
+#exercise 20\
+emp.data<- read.csv(file.choose())\
 emp.data
 
 
-#another method
-emp_id <- 1:5
-emp_name <- c("Rick", "Den", "Michelle", "Ryan","Gary") ...the result of this wll come in factor to convert into chararcter
-salary <- c(632.3, 515.2, 611.729, 843.25)
-start_date <- as.Date(c("2012-01-01", "2013-09-23", "2014-11-15","2014-05-11",))
+#another method\
+emp_id <- 1:5\
+emp_name <- c("Rick", "Den", "Michelle", "Ryan","Gary") ...the result of this wll come in factor to convert into chararcter\
+salary <- c(632.3, 515.2, 611.729, 843.25)\
+start_date <- as.Date(c("2012-01-01", "2013-09-23", "2014-11-15","2014-05-11",))\
 
-emp.date <- data.frame(emp_id,emp_name,salary,start_date)
+emp.date <- data.frame(emp_id,emp_name,salary,start_date)\
 
 str(emp.data)
 
