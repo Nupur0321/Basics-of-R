@@ -14,7 +14,7 @@ Section 2 R Help
 Exercise 3: Access the R help.
 Exercise 4: Access the plot help.
 ```
-Exercise 5: Generate two vectors, one being the numbers 1,2,3,...10 and the other being 2,4,6,...20 \ Exercise 6: Using the R help plot these.
+Exercise 5: Generate two vectors, one being the numbers 1,2,3,...10 and the other being 2,4,6,...20; Exercise 6: Using the R help plot these.
 Exercise 7: Using the R help add a main title, subtitle and label the axes.
 
 #exercise 3
