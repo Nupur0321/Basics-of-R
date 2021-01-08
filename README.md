@@ -93,7 +93,7 @@ x[x>3] # selects the subset of values in x greater than 3 N = length(x) # stores
 
 solution\
 #vectors - exercise 13\
-x = c(0.1, 2, 4.3, 3.1, 5)\
+x = c(0.1, 2, 4.3, 3.1, 5)
 # returns the second value in that vector
 x[2] 
 # returns the first three values
@@ -156,7 +156,7 @@ M = matrix(x, ncol = 3, byrow = TRUE)\
 #The matrix now has dimensions:\
 dim(M)\
 ncol(M)\
-nrow(M)\
+nrow(M)
 
 
 #What do the following do? t(M); aperm(M, c(2,1)) diag(M)\
@@ -172,28 +172,28 @@ A %*% B
 ########################################################
 #ARRAYS
 ########################################################
-h = seq(1, 24, by=1)
-Z <- array(h, dim=c(3,4,2)) Z[1,1,1]; Z[1,2,2]
+h = seq(1, 24, by=1)\
+Z <- array(h, dim=c(3,4,2)) Z[1,1,1]; Z[1,2,2]\
 
 
-########################################################
-#LISTS
-########################################################
-Lst <- list(name="Fred", wife="Mary", no.children=3, child.ages=c(4,7,9)) Lst[[2]]
-Lst[[4]][1]
-#It is important to be familiar and comfortable with indexing in this way #notice the difference in the following two outputs
-Lst[4]
-Lst[[4]]
+########################################################\
+#LISTS\
+########################################################\
+Lst <- list(name="Fred", wife="Mary", no.children=3, child.ages=c(4,7,9)) Lst[[2]]\
+Lst[[4]][1]\
+#It is important to be familiar and comfortable with indexing in this way #notice the difference in the following two outputs\
+Lst[4]\
+Lst[[4]]\
 #You can also index into a list (or dataframe) using $.
 # If you type Lst$, you should get a prompt from RStudio of the available sublists/variables/ Lst$child.ages
 
 
 
-########################################################
-#Data frames
-########################################################
-Exercise 19: Investigate the as.Date() function and the “Date” variable type using the help function.
-Exercise 20: Create a data frame called emp.data with the following information (input the state_date variable as a “Date” variable [not a string or numeric]).
+########################################################\
+#Data frames\
+########################################################\
+Exercise 19: Investigate the as.Date() function and the “Date” variable type using the help function.\
+Exercise 20: Create a data frame called emp.data with the following information (input the state_date variable as a “Date” variable [not a string or numeric]).\
 emp_id
 emp_name      salary
 start_date
