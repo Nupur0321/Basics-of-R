@@ -91,9 +91,9 @@ x[1:3] # returns the first three values\
 x[-(1:3)] # gives all but the first three elements\
 x[x>3] # selects the subset of values in x greater than 3 N = length(x) # stores the length of x\
 
-solution
-#vectors - exercise 13
-x = c(0.1, 2, 4.3, 3.1, 5)
+solution\
+#vectors - exercise 13\
+x = c(0.1, 2, 4.3, 3.1, 5)\
 # returns the second value in that vector
 x[2] 
 # returns the first three values
@@ -107,28 +107,28 @@ N = length(x)
 N
 
 
-Exercise 14: Generate a new vector y where y=2x+1.
-solution
-x = c(0.1, 2, 4.3, 3.1, 5)
-y = 2*x + 1
+Exercise 14: Generate a new vector y where y=2x+1.\
+solution\
+x = c(0.1, 2, 4.3, 3.1, 5)\
+y = 2*x + 1\
 y
 
-Exercise 15: Calculate the mean, median and standard deviation of both x and y.
-solution
-mean(x)
-median(x)
-sd(x)  #standard deviation
-mean(y)
-median(y)
+Exercise 15: Calculate the mean, median and standard deviation of both x and y.\
+solution\
+mean(x)\
+median(x)\
+sd(x)  #standard deviation\
+mean(y)\
+median(y)\
 sd(y)
 
-Exercise 16: Use the seq() function to generate a vector containing the following values: -5, -4, -3, ..., 3, 4, 5
-solution
-seq (from = -5 , to = 5)
+Exercise 16: Use the seq() function to generate a vector containing the following values: -5, -4, -3, ..., 3, 4, 5\
+solution\
+seq (from = -5 , to = 5)\
 
-Exercise 17: Use the rep function to repeat the vector x twice.
-solution
-rep(x , times = 2)
+Exercise 17: Use the rep function to repeat the vector x twice.\
+solution\
+rep(x , times = 2)\
 
 Exercise 18: Run the following code. Note the relationship between the different fruits and their values. #Vectors may also contain characters or strings:
 fruit <- c(5, 10, 4)
