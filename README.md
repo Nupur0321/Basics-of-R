@@ -6,7 +6,7 @@ Section 1 Comments
 Exercise 1: Make a comment in R\
 Exercise 2: Enter a comment into R without a # and note the error generated\
 Solution 1 and 2\
-work this is a testing # Error: unexpected symbol in "work this"\
+work this is a testing # Error: unexpected symbol in "work this"
 
 Section 2 R Help
 ######################################################### #R HELP #########################################################
