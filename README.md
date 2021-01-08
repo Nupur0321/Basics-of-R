@@ -291,59 +291,58 @@ str(emp.data)
 
 
 
-Exercise 21: Run the following code and note the output
+Exercise 21: Run the following code and note the output\
 # Get the structure of the data frame.
-str(emp.data)
-#note the different types of variables
+str(emp.data)\
+#note the different types of variables\
 # Print the summary.
+summary(emp.data)\
+
+solution\
+str(emp.data)\
 summary(emp.data)
 
-solution
-str(emp.data)
-summary(emp.data)
 
 
+Exercise 22: Add a new column to the emp.data called “dept”, to give the below result\
+emp_id   emp_name    salary    start_date      dept\
+1 Rick\
+2 Dan\
+3 Michelle\
+4 Ryan\
+5 Gary\
+623.30    2012-01-01      IT\
+515.20    2013-09-23      Sales\
+611.00    2014-11-15      IT\
+729.00    2014-05-11      HR\
+843.25    2015-03-27      Finance\
 
-Exercise 22: Add a new column to the emp.data called “dept”, to give the below result
-emp_id   emp_name    salary    start_date      dept
-1 Rick
-2 Dan
-3 Michelle
-4 Ryan
-5 Gary
-623.30    2012-01-01      IT
-515.20    2013-09-23      Sales
-611.00    2014-11-15      IT
-729.00    2014-05-11      HR
-843.25    2015-03-27      Finance
-
-solution
-emp.data <- cbind(emp.data, dept=c("IT","Sales", "IT","HR","Finance"))
+solution\
+emp.data <- cbind(emp.data, dept=c("IT","Sales", "IT","HR","Finance"))\
 emp.data
 
-Exercise 23: Create a separate dataframe called emp.newdata with the below information:
-emp.newdata<- data.frame("emp_id" = 6:8, "emp_name" = c("rasmi","pranab","tusar"), "salary" = c(578.0 , 722.5 ,632.8) ,"start_date" = c('21/05/2013' , '30/07/2013', '17/06/2014'),"dept" = c("IT","Operations","Finance"))
+Exercise 23: Create a separate dataframe called emp.newdata with the below information:\
+emp.newdata<- data.frame("emp_id" = 6:8, "emp_name" = c("rasmi","pranab","tusar"), "salary" = c(578.0 , 722.5 ,632.8) ,"start_date" = c('21/05/2013' , '30/07/2013', '17/06/2014'),"dept" = c("IT","Operations","Finance"))\
 emp.newdata
 
-Exercise 24: Combine the two dataframes, emp.data and emp.newdata, into a separate data frame called emp.finaldata.
-emp.finaldata <- rbind(emp.data , emp.newdata)
+Exercise 24: Combine the two dataframes, emp.data and emp.newdata, into a separate data frame called emp.finaldata.\
+emp.finaldata <- rbind(emp.data , emp.newdata)\
 emp.finaldata
 
-Exercise 25: Add a new employee to emp.finaldata, named “John” who works in “HR”. He began on 2013-07-21 and his salary is 533.30.
-emp_id emp_name  salary  start_date       dept
-6 Rasmi
-7 Pranab
-8 Tusar
-578.0   2013-05-21       IT
-722.5   2013-07-30       Operations
-632.8   2014-06-17       Fianance
+Exercise 25: Add a new employee to emp.finaldata, named “John” who works in “HR”. He began on 2013-07-21 and his salary is 533.30.\
+emp_id emp_name  salary  start_date       dept\
+6 Rasmi\
+7 Pranab\
+8 Tusar\
+578.0   2013-05-21       IT\
+722.5   2013-07-30       Operations\
+632.8   2014-06-17       Fianance\
 
 solution
-nRow <- data.frame ("emp_id"= 6 , "emp_name" = "john", "salary" = 533.30 , "start_date" = '21/07/2013', "dept" ="HR")
+nRow <- data.frame ("emp_id"= 6 , "emp_name" = "john", "salary" = 533.30 , "start_date" = '21/07/2013', "dept" ="HR")\
 rbind(emp.finaldata , nRow)
 
 
 
 
-nupur\
-shubham
+
