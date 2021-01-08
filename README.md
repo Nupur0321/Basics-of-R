@@ -64,32 +64,32 @@ Exercise 10: A manufacturing site are running a process; one of the unit operati
 
 solution\
 yield = ((997*1.95) / (1000*2))*100\
-yield\
+yield
 
-Section 4 Sourcing Data
-######################################################### #LOAD AN AVAILABLE DATASET ######################################################### 
-Exercise 11: Run the following code:
-data(mtcars)
+Section 4 Sourcing Data\
+######################################################### #LOAD AN AVAILABLE DATASET #########################################################\
+Exercise 11: Run the following code:\
+data(mtcars)\
 mtcars
 
-#exercise 11
-data(mtcars)
-mtcars
+#exercise 11\
+data(mtcars)\
+mtcars\
 View(mtcars)
 
-Exercise 12: Use the plot function to plot mpg against quarter mile sprint time.
+Exercise 12: Use the plot function to plot mpg against quarter mile sprint time.\
 
-#plot mpg against quarter mile sprint time. means qsec on x-axis and mpg on y-axis
+#plot mpg against quarter mile sprint time. means qsec on x-axis and mpg on y-axis\
 plot(mtcars$qsec, mtcars$mpg , main = "mtcars_data", col = "purple") 
 
-Section 5 Data Types
-######################################################## #VECTORS ######################################################## 
-Exercise 13: Run the following code which generates a vector and then selects different entries in that vector, also finally measuring the length of that vector.
-x = c(0.1, 2, 4.3, 3.1, 5)
-x[2] # returns the second value in that vector
-x[1:3] # returns the first three values
-x[-(1:3)] # gives all but the first three elements
-x[x>3] # selects the subset of values in x greater than 3 N = length(x) # stores the length of x
+Section 5 Data Types\
+######################################################## #VECTORS ######################################################## \
+Exercise 13: Run the following code which generates a vector and then selects different entries in that vector, also finally measuring the length of that vector.\
+x = c(0.1, 2, 4.3, 3.1, 5)\
+x[2] # returns the second value in that vector\
+x[1:3] # returns the first three values\
+x[-(1:3)] # gives all but the first three elements\
+x[x>3] # selects the subset of values in x greater than 3 N = length(x) # stores the length of x\
 
 solution
 #vectors - exercise 13
