@@ -336,9 +336,9 @@ emp_id emp_name  salary  start_date       dept\
 8 Tusar\
 578.0   2013-05-21       IT\
 722.5   2013-07-30       Operations\
-632.8   2014-06-17       Fianance\
+632.8   2014-06-17       Fianance
 
-solution
+solution\
 nRow <- data.frame ("emp_id"= 6 , "emp_name" = "john", "salary" = 533.30 , "start_date" = '21/07/2013', "dept" ="HR")\
 rbind(emp.finaldata , nRow)
 
